@@ -1,0 +1,10 @@
+{
+    "name": "claude-context-doctor",
+    "version": "1.0.0",
+    "description": "Audits your CLAUDE.md, AGENTS.md, and .claude/rules/ files for bloat, redundancy, and stale instructions. Produces a tagged audit report and lean replacements.",
+    "author": {
+          "name": "namelesstherebel"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/namelesstherebel/claude-context-doctor"
+}
