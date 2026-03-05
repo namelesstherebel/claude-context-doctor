@@ -1,0 +1,22 @@
+{
+    "name": "claude-context-doctor",
+    "owner": {
+          "name": "namelesstherebel"
+    },
+    "metadata": {
+          "description": "Audits your CLAUDE.md or AGENT.md files to see if there's any unnecessary context."
+    },
+    "plugins": [
+          {
+                  "name": "claude-context-doctor",
+                  "version": "1.0.0",
+                  "description": "Audits your CLAUDE.md, AGENTS.md, and .claude/rules/ files for bloat, redundancy, and stale instructions. Produces a tagged audit report and lean replacements.",
+                  "author": {
+                            "name": "namelesstherebel"
+                  },
+                  "license": "MIT",
+                  "homepage": "https://github.com/namelesstherebel/claude-context-doctor",
+                  "source": "./.claude-plugin"
+          }
+    ]
+}
